@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.site-content {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 0 16px;
+}
+
+header, .title-container, footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul, .description {
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+}
+
+.title-intro {
+    max-width: 600px;
+}
+
+.title-image-container {
+    background-color: #777777;
+    min-width: 400px;
+    min-height: 200px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color:#F9FAF8
+}
+
+.information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-card-image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
